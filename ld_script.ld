@@ -66,6 +66,8 @@ SECTIONS
         asm/player.o(.text);
         asm/playerskill.o(.text);
         src/battle/guestSkill.o(.text);
+        asm/__10GuestSkill.o(.text);
+        src/battle/monster.o(.text);
         asm/monster.o(.text);
         asm/monsterskill.o(.text);
         asm/psi.o(.text);

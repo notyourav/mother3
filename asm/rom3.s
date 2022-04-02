@@ -3078,7 +3078,7 @@ sub_080A18D0: @ 0x080A18D0
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A1978 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A197C @ =vt_09F64318
@@ -3166,7 +3166,7 @@ sub_080A199C: @ 0x080A199C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A1AA0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A1AA4 @ =vt_09F64318
@@ -3292,7 +3292,7 @@ sub_080A1AC4: @ 0x080A1AC4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A1B74 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A1B78 @ =vt_09F64318
@@ -3384,7 +3384,7 @@ sub_080A1B98: @ 0x080A1B98
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A1C70 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A1C74 @ =vt_09F64318
@@ -3494,7 +3494,7 @@ sub_080A1C94: @ 0x080A1C94
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A1D90 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A1D94 @ =vt_09F64318
@@ -3619,7 +3619,7 @@ sub_080A1DB4: @ 0x080A1DB4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A1EB0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A1EB4 @ =vt_09F64318
@@ -3742,7 +3742,7 @@ sub_080A1ED4: @ 0x080A1ED4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A1F9C @ =vt_09F642A0
 	str r0, [r7, #0x20]
 	ldr r0, _080A1FA0 @ =vt_09F64318
@@ -3848,7 +3848,7 @@ sub_080A1FC0: @ 0x080A1FC0
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2094 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2098 @ =vt_09F64318
@@ -3953,7 +3953,7 @@ sub_080A20B8: @ 0x080A20B8
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2168 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A216C @ =vt_09F64318
@@ -4046,7 +4046,7 @@ sub_080A218C: @ 0x080A218C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2248 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A224C @ =vt_09F64318
@@ -4143,7 +4143,7 @@ sub_080A226C: @ 0x080A226C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2328 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A232C @ =vt_09F64318
@@ -4240,7 +4240,7 @@ sub_080A234C: @ 0x080A234C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A243C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2440 @ =vt_09F64318
@@ -4361,7 +4361,7 @@ sub_080A2460: @ 0x080A2460
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2544 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2548 @ =vt_09F64318
@@ -4476,7 +4476,7 @@ sub_080A2568: @ 0x080A2568
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2624 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2628 @ =vt_09F64318
@@ -4572,7 +4572,7 @@ sub_080A2648: @ 0x080A2648
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A26F0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A26F4 @ =vt_09F64318
@@ -4660,7 +4660,7 @@ sub_080A2714: @ 0x080A2714
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2824 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2828 @ =vt_09F64318
@@ -4792,7 +4792,7 @@ sub_080A2848: @ 0x080A2848
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A28F0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A28F4 @ =vt_09F64318
@@ -4879,7 +4879,7 @@ sub_080A2914: @ 0x080A2914
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A29BC @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A29C0 @ =vt_09F64318
@@ -4966,7 +4966,7 @@ sub_080A29E0: @ 0x080A29E0
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2A88 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2A8C @ =vt_09F64318
@@ -5053,7 +5053,7 @@ sub_080A2AAC: @ 0x080A2AAC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2B54 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2B58 @ =vt_09F64318
@@ -5140,7 +5140,7 @@ sub_080A2B78: @ 0x080A2B78
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2C20 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2C24 @ =vt_09F64318
@@ -5227,7 +5227,7 @@ sub_080A2C44: @ 0x080A2C44
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2CEC @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2CF0 @ =vt_09F64318
@@ -5314,7 +5314,7 @@ sub_080A2D10: @ 0x080A2D10
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2DB8 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2DBC @ =vt_09F64318
@@ -5401,7 +5401,7 @@ sub_080A2DDC: @ 0x080A2DDC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2E84 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2E88 @ =vt_09F64318
@@ -5488,7 +5488,7 @@ sub_080A2EA8: @ 0x080A2EA8
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A2F50 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A2F54 @ =vt_09F64318
@@ -5575,7 +5575,7 @@ sub_080A2F74: @ 0x080A2F74
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A301C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3020 @ =vt_09F64318
@@ -5662,7 +5662,7 @@ sub_080A3040: @ 0x080A3040
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A30E8 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A30EC @ =vt_09F64318
@@ -5750,7 +5750,7 @@ sub_080A310C: @ 0x080A310C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A31F0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A31F4 @ =vt_09F64318
@@ -5864,7 +5864,7 @@ sub_080A3214: @ 0x080A3214
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A32BC @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A32C0 @ =vt_09F64318
@@ -5951,7 +5951,7 @@ sub_080A32E0: @ 0x080A32E0
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3388 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A338C @ =vt_09F64318
@@ -6038,7 +6038,7 @@ sub_080A33AC: @ 0x080A33AC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3454 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3458 @ =vt_09F64318
@@ -6126,7 +6126,7 @@ sub_080A3478: @ 0x080A3478
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3530 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3534 @ =vt_09F64318
@@ -6220,7 +6220,7 @@ sub_080A3554: @ 0x080A3554
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A35FC @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3600 @ =vt_09F64318
@@ -6307,7 +6307,7 @@ sub_080A3620: @ 0x080A3620
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A36C8 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A36CC @ =vt_09F64318
@@ -6394,7 +6394,7 @@ sub_080A36EC: @ 0x080A36EC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3794 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3798 @ =vt_09F64318
@@ -6481,7 +6481,7 @@ sub_080A37B8: @ 0x080A37B8
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3860 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3864 @ =vt_09F64318
@@ -6568,7 +6568,7 @@ sub_080A3884: @ 0x080A3884
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A392C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3930 @ =vt_09F64318
@@ -6656,7 +6656,7 @@ sub_080A3950: @ 0x080A3950
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3A14 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3A18 @ =vt_09F64318
@@ -6756,7 +6756,7 @@ sub_080A3A38: @ 0x080A3A38
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3AF4 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3AF8 @ =vt_09F64318
@@ -6852,7 +6852,7 @@ sub_080A3B18: @ 0x080A3B18
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3BC0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3BC4 @ =vt_09F64318
@@ -6939,7 +6939,7 @@ sub_080A3BE4: @ 0x080A3BE4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3C8C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3C90 @ =vt_09F64318
@@ -7027,7 +7027,7 @@ sub_080A3CB0: @ 0x080A3CB0
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3D6C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3D70 @ =vt_09F64318
@@ -7123,7 +7123,7 @@ sub_080A3D90: @ 0x080A3D90
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3E68 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3E6C @ =vt_09F64318
@@ -7232,7 +7232,7 @@ sub_080A3E8C: @ 0x080A3E8C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A3F3C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A3F40 @ =vt_09F64318
@@ -7324,7 +7324,7 @@ sub_080A3F60: @ 0x080A3F60
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4008 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A400C @ =vt_09F64318
@@ -7412,7 +7412,7 @@ sub_080A402C: @ 0x080A402C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A40E8 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A40EC @ =vt_09F64318
@@ -7508,7 +7508,7 @@ sub_080A410C: @ 0x080A410C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A41D4 @ =vt_09F642A0
 	str r0, [r7, #0x20]
 	ldr r0, _080A41D8 @ =vt_09F64318
@@ -7612,7 +7612,7 @@ sub_080A41F8: @ 0x080A41F8
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A42A0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A42A4 @ =vt_09F64318
@@ -7699,7 +7699,7 @@ sub_080A42C4: @ 0x080A42C4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A436C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4370 @ =vt_09F64318
@@ -7787,7 +7787,7 @@ sub_080A4390: @ 0x080A4390
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A444C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4450 @ =vt_09F64318
@@ -7884,7 +7884,7 @@ sub_080A4470: @ 0x080A4470
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4528 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A452C @ =vt_09F64318
@@ -7978,7 +7978,7 @@ sub_080A454C: @ 0x080A454C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A45F4 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A45F8 @ =vt_09F64318
@@ -8065,7 +8065,7 @@ sub_080A4618: @ 0x080A4618
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A46C0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A46C4 @ =vt_09F64318
@@ -8152,7 +8152,7 @@ sub_080A46E4: @ 0x080A46E4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A478C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4790 @ =vt_09F64318
@@ -8239,7 +8239,7 @@ sub_080A47B0: @ 0x080A47B0
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4858 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A485C @ =vt_09F64318
@@ -8327,7 +8327,7 @@ sub_080A487C: @ 0x080A487C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4938 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A493C @ =vt_09F64318
@@ -8423,7 +8423,7 @@ sub_080A495C: @ 0x080A495C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4A04 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4A08 @ =vt_09F64318
@@ -8511,7 +8511,7 @@ sub_080A4A28: @ 0x080A4A28
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4AE4 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4AE8 @ =vt_09F64318
@@ -8608,7 +8608,7 @@ sub_080A4B08: @ 0x080A4B08
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4BC0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4BC4 @ =vt_09F64318
@@ -8703,7 +8703,7 @@ sub_080A4BE4: @ 0x080A4BE4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4CA0 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4CA4 @ =vt_09F64318
@@ -8799,7 +8799,7 @@ sub_080A4CC4: @ 0x080A4CC4
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4D6C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4D70 @ =vt_09F64318
@@ -8887,7 +8887,7 @@ sub_080A4D90: @ 0x080A4D90
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4E4C @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4E50 @ =vt_09F64318
@@ -8983,7 +8983,7 @@ sub_080A4E70: @ 0x080A4E70
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4F18 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4F1C @ =vt_09F64318
@@ -9071,7 +9071,7 @@ sub_080A4F3C: @ 0x080A4F3C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A4FF8 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A4FFC @ =vt_09F64318
@@ -9168,7 +9168,7 @@ sub_080A501C: @ 0x080A501C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A50D8 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A50DC @ =vt_09F64318
@@ -9265,7 +9265,7 @@ sub_080A50FC: @ 0x080A50FC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A51B8 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A51BC @ =vt_09F64318
@@ -9363,7 +9363,7 @@ sub_080A51DC: @ 0x080A51DC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A5298 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A529C @ =vt_09F64318
@@ -9461,7 +9461,7 @@ sub_080A52BC: @ 0x080A52BC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A5378 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A537C @ =vt_09F64318
@@ -9557,7 +9557,7 @@ sub_080A539C: @ 0x080A539C
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A5444 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A5448 @ =vt_09F64318
@@ -9644,7 +9644,7 @@ sub_080A5468: @ 0x080A5468
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A5510 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A5514 @ =vt_09F64318
@@ -9731,7 +9731,7 @@ sub_080A5534: @ 0x080A5534
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A55DC @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A55E0 @ =vt_09F64318
@@ -9819,7 +9819,7 @@ sub_080A5600: @ 0x080A5600
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A56BC @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A56C0 @ =vt_09F64318
@@ -9917,7 +9917,7 @@ sub_080A56E0: @ 0x080A56E0
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A57B4 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A57B8 @ =vt_09F64318
@@ -10026,7 +10026,7 @@ sub_080A57DC: @ 0x080A57DC
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A5884 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A5888 @ =vt_09F64318
@@ -10113,7 +10113,7 @@ sub_080A58A8: @ 0x080A58A8
 	lsrs r1, r1, #0x10
 	lsls r2, r2, #0x10
 	lsrs r2, r2, #0x10
-	bl sub_08080A24
+	bl __7MonsterUsUs
 	ldr r0, _080A5948 @ =vt_09F642A0
 	str r0, [r5, #0x20]
 	ldr r0, _080A594C @ =vt_09F64318

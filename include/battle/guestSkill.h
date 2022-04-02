@@ -9,8 +9,9 @@ struct GuestSkillInfo {
 };
 extern GuestSkillInfo gGuestSkillData2[];
 
-class GuestSkill : public Action{
+class GuestSkill : public Action {
 public:
+    GuestSkill();
     GuestSkill(u16 id, Unit* user);
     virtual ~GuestSkill();
 

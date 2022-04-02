@@ -96436,7 +96436,7 @@ _vt.19GuestSkillSingleton::
 	.2byte 0
 	.4byte sub_080C16C8
 
-vt_09F82F98::
+_vt.7Monster.10UnitObject::
 	.2byte -32
 	.2byte 0
 	.4byte 0
@@ -96483,7 +96483,7 @@ vt_09F82F98::
 	.2byte 0
 	.4byte sub_08081994
 
-vt_09F83010::
+_vt.7Monster::
 	.2byte 0
 	.2byte 0
 	.4byte 0

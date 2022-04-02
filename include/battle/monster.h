@@ -3,6 +3,7 @@
 
 #include "global.h"
 #include "battle/unit.h"
+#include "battle.h"
 
 struct MonsterData {
     u32 id;
@@ -30,7 +31,7 @@ struct MonsterData {
     u16 attack_sfx;
     u8 encounter_msg;
     u8 death_msg;
-    u32 death_anim;
+    u8 death_anim;
     u32 battle_pos;
     u8 memory_height[2];
     u8 battle_height[2];
@@ -51,10 +52,29 @@ struct MonsterData {
     u16 smell_weaknesses[2];
 };
 
+struct GfxThing {
+    GfxThing(Unit*);
+
+    u8 filler[200];
+};
+
 class Monster : public Unit {
 public:
+    struct Substruct {
+        Substruct();
+    };
+    struct Substruct2 {
+        Substruct2() {
+            val = 0;
+        }
+        u32 val;
+    };
+
     Monster();
+    Monster(u16 a, u16 idx);
     virtual ~Monster();
+
+    virtual void* getInstance();
 
     virtual void monster_2c0();
     virtual void monster_2c8();
@@ -81,6 +101,30 @@ public:
     virtual void monster_370();
     virtual void monster_378();
     virtual bool monster_380();
+
+    void sub_08080B60();
+    void sub_08080CE4();
+    void sub_08080D48();
+
+    u16 _f8;
+    u16 _fa;
+    const MonsterData* _fc;
+    u32 _100;
+    s32 _104;
+    Msg _108;
+    u16 _114;
+    u32 _118;
+    Substruct2 _11c;
+    u32 _120;
+    u32 _124;
+    u32 _128;
+    u32 _12c;
+    u16 _130;
+    Substruct _134;
+    u32 _138;
+    GfxThing* _13c;
 };
+
+SINGLETON(Monster);
 
 #endif // BATTLE_MONSTER_H
